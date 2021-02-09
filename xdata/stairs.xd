@@ -1,0 +1,15 @@
+readables/stairs/book_kife
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		"The Book of Kife"
+	}
+	"page1_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

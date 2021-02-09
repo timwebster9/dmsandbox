@@ -107,14 +107,10 @@ DarkRadiant Map Information File Version 2
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2022" } 
-		KeyValue { "LastCameraAngle" "-46.2 127.8 0" } 
-		KeyValue { "LastCameraPosition" "-104.068 455.987 404.336" } 
+		KeyValue { "EditTimeInSeconds" "2747" } 
+		KeyValue { "LastCameraAngle" "-43.2 167.1 0" } 
+		KeyValue { "LastCameraPosition" "214.761 5.34977 112.703" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_brown_dull" } 
-	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 2022 }
 	}
 	Layers
 	{
@@ -245,6 +241,14 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_2)
 		Node { 0 } // entity (path_corner_4)
 		Node { 0 } // entity (path_corner_5)
+		Node { 0 } // entity (book_kife)
+		Node { 0 } // entity (atdm_moveable_food_apple_1)
+		Node { 0 } // entity (atdm_target_addobjectives_1)
+		Node { 0 } // entity (million_gold)
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 2747 }
 	}
 	SelectionSets
 	{

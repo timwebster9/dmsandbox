@@ -212,8 +212,8 @@ brushDef3
 {
 ( 0 0 1 -120 ) ( ( 0.02604166604578495 0 0.2083333879709244 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
 ( 0 1 0 -432 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
-( 1 0 0 32 ) ( ( 0.02604166604578495 0 255.9999998956919 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
-( 0 0 -1 104 ) ( ( 0.02604166604578495 0 255.9999998956919 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
+( 1 0 0 32 ) ( ( 0.02604166604578495 0 256 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
+( 0 0 -1 104 ) ( ( 0.02604166604578495 0 256 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
 ( 0 -1 0 232 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
 ( -1 0 0 -128 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/darkmod/wood/boards/rough_wood_brown_dull" 0 0 0
 }
@@ -1413,9 +1413,9 @@ brushDef3
 {
 "classname" "func_static"
 "name" "func_static_2"
+"model" "models/darkmod/architecture/modules/interior_set01_stairs.lwo"
 "origin" "-81.323 424.919 120"
 "rotation" "0 1 0 -1 0 0 0 0 1"
-"model" "models/darkmod/architecture/modules/interior_set01_stairs.lwo"
 }
 // entity 73
 {
@@ -1430,4 +1430,47 @@ brushDef3
 "name" "path_corner_5"
 "origin" "-360 560 268"
 "target0" "path_corner_1"
+}
+// entity 75
+{
+"classname" "atdm:readable_mobile_book01"
+"name" "book_kife"
+"inv_name" "The Book of Kife"
+"origin" "152 48 -21"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"xdata_contents" "readables/stairs/book_kife"
+"trigger_on_close" "million_gold"
+}
+// entity 76
+{
+"classname" "atdm:moveable_food_apple"
+"name" "atdm_moveable_food_apple_1"
+"origin" "160.5 25.5 -21"
+"rotation" "1 0 0 0 1 0 0 0 1"
+}
+// entity 77
+{
+"classname" "atdm:target_addobjectives"
+"name" "atdm_target_addobjectives_1"
+"origin" "0.160161 72.1389 24.7429"
+"obj1_desc" "Get one million gold"
+"obj1_ongoing" "0"
+"obj1_visible" "0"
+"obj1_mandatory" "1"
+"obj1_irreversible" "0"
+"obj1_state" "0"
+"obj1_1_state" "0"
+"obj1_1_not" "0"
+"obj1_1_irreversible" "0"
+"obj1_1_player_responsible" "0"
+"obj1_1_type" "item"
+"obj1_1_spec1" "overall"
+"obj1_1_args" "65535"
+}
+// entity 78
+{
+"classname" "atdm:target_setobjective_visibility"
+"name" "million_gold"
+"origin" "153.5 50.5 24.5"
+"obj_id1" "1"
 }

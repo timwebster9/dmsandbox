@@ -1,0 +1,10 @@
+void main()
+{
+	sys.waitFrame();
+    sys.println("Hello from main.");
+}
+
+void trigger_obj()
+{
+	 sys.println("Hello from trigger_obj.");
+}¦
