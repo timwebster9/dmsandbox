@@ -1,5 +1,16 @@
 DarkRadiant Map Information File Version 2
 {
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "18632" } 
+		KeyValue { "LastCameraAngle" "54 274.2 0" } 
+		KeyValue { "LastCameraPosition" "796.055 930.841 25.046" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/blocks_darksheen_smooth" } 
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 18632 }
+	}
 	SelectionGroups
 	{
 		SelectionGroup 1 { "" }
@@ -19,6 +30,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 38 { "" }
 		SelectionGroup 39 { "" }
 		SelectionGroup 40 { "" }
+		SelectionGroup 43 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -329,59 +341,50 @@ DarkRadiant Map Information File Version 2
 		Node { ( 149 ) ( 26 ) } // entity (info_portalsky_1)
 		Node { ( 150 ) ( 26 ) } // entity (light_118)
 		Node { ( 151 ) ( 26 ) } // entity (func_static_539)
-		Node { ( 163 ) ( 36 ) } // entity (func_static_2)
-		Node { ( 164 ) ( 36 ) } // entity (func_static_3)
-		Node { ( 165 ) ( 36 ) } // entity (func_static_4)
-		Node { ( 166 ) ( 36 ) } // entity (func_static_5)
-		Node { ( 167 ) ( 36 ) } // entity (func_static_6)
-		Node { ( 168 ) ( 36 ) } // entity (func_static_7)
-		Node { ( 169 ) ( 36 ) } // entity (func_static_9)
-		Node { ( 170 ) ( 36 ) } // entity (func_static_10)
-		Node { ( 171 ) ( 36 ) } // entity (func_static_11)
-		Node { ( 172 ) ( 36 ) } // entity (func_static_12)
-		Node { ( 173 ) ( 36 ) } // entity (func_static_13)
-		Node { ( 174 ) ( 36 ) } // entity (func_static_14)
-		Node { ( 175 ) ( 36 ) } // entity (func_static_15)
-		Node { ( 176 ) ( 36 ) } // entity (func_static_16)
-		Node { ( 177 ) ( 36 ) } // entity (func_static_17)
-		Node { ( 178 ) ( 36 ) } // entity (func_static_18)
-		Node { ( 179 ) ( 36 ) } // entity (func_static_19)
-		Node { ( 180 ) ( 36 ) } // entity (func_static_20)
-		Node { ( 181 ) ( 36 ) } // entity (func_static_21)
-		Node { ( 182 ) ( 36 ) } // entity (func_static_22)
-		Node { ( 183 ) ( 36 ) } // entity (func_static_23)
-		Node { ( 184 ) ( 36 ) } // entity (func_static_31)
-		Node { ( 185 ) ( 36 ) } // entity (func_static_45)
-		Node { ( 186 ) ( 36 ) } // entity (func_static_46)
-		Node { ( 187 ) ( 36 ) } // entity (func_static_47)
-		Node { ( 188 ) ( 36 ) } // entity (func_static_48)
-		Node { ( 189 ) ( 36 ) } // entity (func_static_55)
-		Node { ( 190 ) ( 36 ) } // entity (func_static_56)
-		Node { ( 191 ) ( 36 ) } // entity (func_static_57)
-		Node { ( 192 ) ( 36 ) } // entity (func_static_58)
-		Node { ( 193 ) ( 36 ) } // entity (func_static_59)
-		Node { ( 194 ) ( 36 ) } // entity (func_static_60)
-		Node { ( 195 ) ( 36 ) } // entity (func_static_61)
-		Node { ( 196 ) ( 36 ) } // entity (func_static_62)
-		Node { ( 197 ) ( 36 ) } // entity (func_static_63)
-		Node { ( 198 ) ( 36 ) } // entity (func_static_64)
-		Node { ( 199 ) ( 36 ) } // entity (func_static_65)
-		Node { ( 201 ) ( 40 ) } // entity (func_static_66)
-		Node { ( 202 ) ( 40 ) } // entity (func_static_67)
-		Node { ( 203 ) ( 40 ) } // entity (func_static_68)
-		Node { ( 204 ) ( 40 ) } // entity (atdm_ext_timber01_roof128_window_1)
-		Node { ( 205 ) ( 40 ) } // entity (func_static_69)
-	}
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "16860" } 
-		KeyValue { "LastCameraAngle" "22.2 261.3 0" } 
-		KeyValue { "LastCameraPosition" "313.415 1415.63 168.921" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/natural/rock_grey_dark_rough" } 
-	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 16860 }
+		Node { ( 162 ) ( 36 ) } // entity (func_static_2)
+		Node { ( 163 ) ( 36 ) } // entity (func_static_3)
+		Node { ( 164 ) ( 36 ) } // entity (func_static_4)
+		Node { ( 165 ) ( 36 ) } // entity (func_static_5)
+		Node { ( 166 ) ( 36 ) } // entity (func_static_6)
+		Node { ( 167 ) ( 36 ) } // entity (func_static_7)
+		Node { ( 168 ) ( 36 ) } // entity (func_static_9)
+		Node { ( 169 ) ( 36 ) } // entity (func_static_10)
+		Node { ( 170 ) ( 36 ) } // entity (func_static_11)
+		Node { ( 171 ) ( 36 ) } // entity (func_static_12)
+		Node { ( 172 ) ( 36 ) } // entity (func_static_13)
+		Node { ( 173 ) ( 36 ) } // entity (func_static_14)
+		Node { ( 174 ) ( 36 ) } // entity (func_static_15)
+		Node { ( 175 ) ( 36 ) } // entity (func_static_16)
+		Node { ( 176 ) ( 36 ) } // entity (func_static_17)
+		Node { ( 177 ) ( 36 ) } // entity (func_static_18)
+		Node { ( 178 ) ( 36 ) } // entity (func_static_19)
+		Node { ( 179 ) ( 36 ) } // entity (func_static_20)
+		Node { ( 180 ) ( 36 ) } // entity (func_static_21)
+		Node { ( 181 ) ( 36 ) } // entity (func_static_22)
+		Node { ( 182 ) ( 36 ) } // entity (func_static_23)
+		Node { ( 183 ) ( 36 ) } // entity (func_static_31)
+		Node { ( 184 ) ( 36 ) } // entity (func_static_45)
+		Node { ( 185 ) ( 36 ) } // entity (func_static_46)
+		Node { ( 186 ) ( 36 ) } // entity (func_static_47)
+		Node { ( 187 ) ( 36 ) } // entity (func_static_48)
+		Node { ( 188 ) ( 36 ) } // entity (func_static_55)
+		Node { ( 189 ) ( 36 ) } // entity (func_static_56)
+		Node { ( 190 ) ( 36 ) } // entity (func_static_57)
+		Node { ( 191 ) ( 36 ) } // entity (func_static_58)
+		Node { ( 192 ) ( 36 ) } // entity (func_static_59)
+		Node { ( 193 ) ( 36 ) } // entity (func_static_60)
+		Node { ( 194 ) ( 36 ) } // entity (func_static_61)
+		Node { ( 195 ) ( 36 ) } // entity (func_static_62)
+		Node { ( 196 ) ( 36 ) } // entity (func_static_63)
+		Node { ( 197 ) ( 36 ) } // entity (func_static_64)
+		Node { ( 198 ) ( 36 ) } // entity (func_static_65)
+		Node { ( 200 ) ( 40 ) } // entity (func_static_66)
+		Node { ( 201 ) ( 40 ) } // entity (func_static_67)
+		Node { ( 202 ) ( 40 ) } // entity (func_static_68)
+		Node { ( 203 ) ( 40 ) } // entity (atdm_ext_timber01_roof128_window_1)
+		Node { ( 204 ) ( 40 ) } // entity (func_static_69)
+		Node { ( 208 ) ( 43 ) } // entity (cage)
+		Node { ( 209 ) ( 43 ) } // entity (light_cageflame_small_1)
 	}
 	Layers
 	{
@@ -570,6 +573,17 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (info_player_start_1)
 		Node { 0 } // entity (atdm_liquid_water_1)
 		Node { 0 } // brush (Brush)
@@ -726,7 +740,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (info_portalsky_1)
 		Node { 0 } // entity (light_118)
 		Node { 0 } // entity (func_static_539)
-		Node { 0 } // entity (speaker_1)
 		Node { 0 } // entity (atdm_ext_timber01_wall01_1)
 		Node { 0 } // entity (atdm_timber01_timber01_spacer01_rope_1)
 		Node { 0 } // entity (atdm_timber01_timber01_spacer01_rope_2)
@@ -783,6 +796,9 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_ai_townsfolk_commoner_2)
 		Node { 0 } // entity (func_static_70)
 		Node { 0 } // entity (func_static_71)
+		Node { 0 } // entity (cage)
+		Node { 0 } // entity (light_cageflame_small_1)
+		Node { 0 } // entity (func_static_72)
 	}
 	SelectionSets
 	{
