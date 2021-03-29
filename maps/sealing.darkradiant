@@ -1,0 +1,54 @@
+DarkRadiant Map Information File Version 2
+{
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "906" } 
+		KeyValue { "LastCameraAngle" "4.8 282.9 0" } 
+		KeyValue { "LastCameraPosition" "303.091 -92.7797 976.994" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/blocks_darksheen_smooth" } 
+	}
+	SelectionGroups
+	{
+		SelectionGroup 1 { "" }
+	}
+	SelectionGroupNodeMapping
+	{
+		Node { ( 4 ) ( 1 ) } // entity (door_96x48x2hinge_1)
+		Node { ( 5 ) ( 1 ) } // entity (doorhandle_96x48x2hinge_1)
+	}
+	Layers
+	{
+		Layer 0 { Default }
+	}
+	NodeToLayerMapping
+	{
+		Node { 0 } // entity (world)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (func_static_1)
+		Node { 0 } // entity (ambient_world)
+		Node { 0 } // entity (info_player_start_1)
+		Node { 0 } // entity (door_96x48x2hinge_1)
+		Node { 0 } // entity (doorhandle_96x48x2hinge_1)
+		Node { 0 } // entity (func_static_2)
+		Node { 0 } // entity (func_static_3)
+		Node { 0 } // entity (func_static_4)
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 906 }
+	}
+	SelectionSets
+	{
+	}
+}
